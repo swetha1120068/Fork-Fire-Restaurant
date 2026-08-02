@@ -169,36 +169,7 @@ nav a:hover{
     background: darkorange;
     transform: translateY(-10px);
 }
-@media (max-width:768px){
-    .about{
-        flex-direction: column;
-        padding: 40px 20px;
-    }
-    .about-image img{
-        width:100%;
-    }
-    .menu-container{
-        grid-template-columns: 1fr;
-    }
-    .testimonial-container{
-        grid-template-columns: 1fr;
-        gap:20px;
-    }
-    .gallery-container{
-        grid-template-columns:repeat(2,1fr);
-        gap:15px;
-    }
-    .gallery-container img{
-        height:180px;
-    }
-    nav ul{
-        display:none;
-    }
-    .menu-icon{
-        display: block;
-    }
-    
-}
+
 .offer{
     
     padding:32px 40px;
@@ -388,4 +359,34 @@ footer p{
 .social_icons a:hover{
     color:orange;
     transform: translateY(-5px)scale(1.2);
+}
+@media (max-width:768px){
+    .about{
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+    .about-image img{
+        width:100%;
+    }
+    .menu-container{
+        grid-template-columns: 1fr;
+    }
+    .testimonial-container{
+        grid-template-columns: 1fr;
+        gap:20px;
+    }
+    .gallery-container{
+        grid-template-columns:repeat(2,1fr);
+        gap:15px;
+    }
+    .gallery-container img{
+        height:180px;
+    }
+    nav ul{
+        display:none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    
 }
