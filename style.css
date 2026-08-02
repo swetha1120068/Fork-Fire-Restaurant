@@ -182,9 +182,14 @@ nav a:hover{
     }
     .testimonial-container{
         grid-template-columns: 1fr;
+        gap:20px;
     }
     .gallery-container{
-        grid-template-columns: 1fr;
+        grid-template-columns:repeat(2,1fr);
+        gap:15px;
+    }
+    .gallery-container img{
+        height:180px;
     }
     nav ul{
         display:none;
@@ -192,6 +197,7 @@ nav a:hover{
     .menu-icon{
         display: block;
     }
+    
 }
 .offer{
     
@@ -268,7 +274,7 @@ nav a:hover{
 
 }
 .gallery{
-    padding:80px 100px;
+    padding:80px 20px;
     text-align: center;
 }
 .gallery h2{
@@ -338,7 +344,7 @@ footer p{
     margin:10px 0;
 }
 .testimonials{
-    padding: 80px 100px;
+    padding: 40px 20px;
     text-align: center;
     background: #f9f9f9;
 
